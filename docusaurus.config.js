@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'StoneSoupKitchen',
   projectName: 'www',
   themeConfig: {
+    colorMode: {
+        defaultMode: 'dark',
+    },
     navbar: {
       title: 'Stone Soup Kitchen',
       items: [
