@@ -21,9 +21,16 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://github.com/StoneSoupKitchen',
-          label: 'GitHub',
+          href: 'https://ko-fi.com/H2H43P9OI',
           position: 'right',
+          className: 'header-kofi-link',
+          'aria-label': 'Support me on ko-fi.com',
+        },
+        {
+          href: 'https://github.com/StoneSoupKitchen',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
