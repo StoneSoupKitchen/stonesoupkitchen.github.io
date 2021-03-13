@@ -15,6 +15,10 @@ module.exports = {
     },
     navbar: {
       title: 'Stone Soup Kitchen',
+      logo: {
+          alt: 'Stone Soup Kitchen Logo',
+          src: 'img/logo.svg',
+      },
       items: [
         {
           href: 'https://github.com/StoneSoupKitchen',
