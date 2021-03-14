@@ -2,7 +2,7 @@ module.exports = {
   docs: [
       {
           type: 'category',
-          label: 'Introduction',
+          label: 'Stone Soup Kitchen',
           items: ['about'],
       },
       {
