@@ -7,6 +7,11 @@ module.exports = {
       },
       {
           type: 'category',
+          label: 'Containers',
+          items: ['containers/index'],
+      },
+      {
+          type: 'category',
           label: 'Continuous Integration',
           items: ['continuous-integration/index'],
       },
