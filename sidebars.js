@@ -13,7 +13,10 @@ module.exports = {
             {
                 type: "category",
                 label: "Labs",
-                items: [ 'containers/labs/lab-01' ],
+                items: [
+                    'containers/labs/lab-01',
+                    'containers/labs/lab-02'
+                ],
             },
           ],
       },

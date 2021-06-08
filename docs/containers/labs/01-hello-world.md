@@ -1,11 +1,9 @@
 ---
 id: lab-01
-title: Containers
+title: "Lab #1: Hello, World!"
 sidebar_label: "#1: Hello, World!"
 slug: /containers/labs/01-hello-world
 ---
-
-# Lab #1: Hello, World!
 
 ## Overview
 
