@@ -8,7 +8,14 @@ module.exports = {
       {
           type: 'category',
           label: 'Containers',
-          items: ['containers/index'],
+          items: [
+            'containers/index',
+            {
+                type: "category",
+                label: "Labs",
+                items: [ 'containers/labs/lab-01' ],
+            },
+          ],
       },
       {
           type: 'category',
