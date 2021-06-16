@@ -48,13 +48,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/StoneSoupKitchen/www/edit/main/',
+            'https://github.com/StoneSoupKitchen/stonesoupkitchen.github.io/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/StoneSoupKitchen/www/edit/main/blog/',
+            'https://github.com/StoneSoupKitchen/stonesoupkitchen.github.io/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
