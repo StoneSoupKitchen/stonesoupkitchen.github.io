@@ -15,7 +15,8 @@ module.exports = {
                 label: "Labs",
                 items: [
                     'containers/labs/lab-01',
-                    'containers/labs/lab-02'
+                    'containers/labs/lab-02',
+                    'containers/labs/lab-03'
                 ],
             },
           ],
