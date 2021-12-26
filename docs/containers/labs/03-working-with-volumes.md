@@ -59,7 +59,7 @@ VOLUME /docker/writer
 ENTRYPOINT [ "/write.sh" ]
 ```
 
-Build the `writer` container: 
+Build the `writer` container:
 
     docker build -f Dockerfile.writer -t writer .
 
@@ -71,7 +71,7 @@ VOLUME /docker/reader
 ENTRYPOINT [ "/bin/bash", "-c", "/bin/cat /docker/reader/*" ]
 ```
 
-Build the `reader` container: 
+Build the `reader` container:
 
     docker build -f Dockerfile.reader -t reader .
 

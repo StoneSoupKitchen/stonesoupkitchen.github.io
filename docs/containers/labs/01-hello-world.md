@@ -25,7 +25,7 @@ FROM debian:stable-slim
 CMD [ "echo", "Hello, World!" ]
 ```
 
-Build the container: 
+Build the container:
 
     docker build -t helloworld .
 

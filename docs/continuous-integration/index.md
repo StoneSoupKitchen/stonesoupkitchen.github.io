@@ -24,11 +24,11 @@ and deploy an application.
 Many different CI systems exist today. A short list of some of the most
 popular systems currently in use:
 
-* [GitHub Actions](https://github.com/features/actions)
-* [GitLab CI](https://docs.gitlab.com/ee/ci/)
-* [Jenkins](https://www.jenkins.io/)
-* [Travis CI](https://travis-ci.com/)
-* [Circle CI](https://circleci.com/)
+- [GitHub Actions](https://github.com/features/actions)
+- [GitLab CI](https://docs.gitlab.com/ee/ci/)
+- [Jenkins](https://www.jenkins.io/)
+- [Travis CI](https://travis-ci.com/)
+- [Circle CI](https://circleci.com/)
 
 [1]: https://martinfowler.com/articles/continuousIntegration.html
 
@@ -36,10 +36,10 @@ popular systems currently in use:
 
 A good CI pipeline:
 
-* Runs the quickest tools first.
-* Provides timestamps for all stages within a pipeline.
-* Does not rely on many input parameters outside of the build system.
-* Runs tools the same way as the humans.
+- Runs the quickest tools first.
+- Provides timestamps for all stages within a pipeline.
+- Does not rely on many input parameters outside of the build system.
+- Runs tools the same way as the humans.
 
 The primary objective of a CI pipeline is to provide fast feedback to the
 developer. These pipelines should be optimized for speed and simplicity. Faster
@@ -68,11 +68,12 @@ Pull requests form the backbone of code review in Git-based version control
 systems. The CI pipeline is an invaluable tool for automating reviews.
 
 Tools to run:
-* Commit syntax checkers
-* Code linters
-* Compilers
-* Automated unit tests
-* Static analysis tools
+
+- Commit syntax checkers
+- Code linters
+- Compilers
+- Automated unit tests
+- Static analysis tools
 
 ### Branch pushes
 
@@ -82,9 +83,10 @@ a `main`, `master`, or `trunk` branch may require a more robust pipeline.
 
 In addition to the tools listed above, branch pushes to the primary integration
 branch may:
-* Run automated integration tests (if possible)
-* Create snapshot builds
-* Upload snapshot builds to an artifact store
+
+- Run automated integration tests (if possible)
+- Create snapshot builds
+- Upload snapshot builds to an artifact store
 
 ### Releases
 
@@ -97,18 +99,19 @@ community to community.
 Release pipelines will typically fire after a branch push. This pipeline
 focuses on the software delivery and release aspects of development. As such,
 this type of pipeline may:
-* Create release builds
-* Upload release builds to an artifact store
-* Deploy latest build to a staging environment
-* Conduct end-to-end tests
+
+- Create release builds
+- Upload release builds to an artifact store
+- Deploy latest build to a staging environment
+- Conduct end-to-end tests
 
 ## Metrics
 
 Within the scope of continuous integration, there are two metrics worth
 tracking:
 
-* Mean time between failures (MTBF)
-* Mean time to recovery (MTTR)
+- Mean time between failures (MTBF)
+- Mean time to recovery (MTTR)
 
 These two metrics are typically used when monitoring production systems, but
 both can be of some value when attempting to monitor the health of CI
@@ -122,7 +125,7 @@ to investigate and troubleshoot build failures.
 When creating a CI pipeline, capture build status information for a given
 software repository. For simplicity and noise reduction, consider only
 capturing information from the primary integration branch. If developers are
-hard at work catching failures and fixing them in their feature branches, 
+hard at work catching failures and fixing them in their feature branches,
 pipeline failures may be a more common event. This will end up skewing the
 metrics we're trying to capture.
 
@@ -137,4 +140,3 @@ build after them. This will produce the MTTR for your environment.
 When our pipeline goes from "green" to "red", a failure has occurred. Collect
 and average the time intervals between recovery points and the first failing
 build after them. This will produce the MTBF for your environment.
-

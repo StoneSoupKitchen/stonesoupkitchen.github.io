@@ -16,16 +16,16 @@ pages. This challenge will have you deploy an HTML web page to a container.
 Given the following `index.html`:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>My Containerized Website</title>
-</head>
+  <head>
+    <title>My Containerized Website</title>
+  </head>
 
-<body>
-  <h1>Welcome!</h1>
-  <p>This website is running in a Docker container!
-</body>
+  <body>
+    <h1>Welcome!</h1>
+    <p>This website is running in a Docker container!</p>
+  </body>
 </html>
 ```
 
@@ -46,7 +46,7 @@ FROM nginx
 COPY index.html /usr/share/nginx/html
 ```
 
-Build the container: 
+Build the container:
 
     docker build -t homepage .
 

@@ -27,14 +27,14 @@ security is a moving target. This list should be treated as incomplete.
 
 Some basic hygiene items for creating secure containers:
 
-* Scan your container images for vulnerabilities.
-* Scan your container images for malware.
-* Never create or use images that run as `root` or UID 0.
-* Never embed secrets, such as private keys, license keys, or passwords, inside
+- Scan your container images for vulnerabilities.
+- Scan your container images for malware.
+- Never create or use images that run as `root` or UID 0.
+- Never embed secrets, such as private keys, license keys, or passwords, inside
   a container.
-* Only use images from a source you trust.
-* Rebuild your container images regularly to rapidly incorporate updates.
-* For base images, in order of preference:
+- Only use images from a source you trust.
+- Rebuild your container images regularly to rapidly incorporate updates.
+- For base images, in order of preference:
 
 1. `FROM scratch`
 2. Distroless
@@ -42,6 +42,5 @@ Some basic hygiene items for creating secure containers:
 
 ## References
 
-* [NIST Application Container Security
+- [NIST Application Container Security
   Guide](https://www.nist.gov/publications/application-container-security-guide)
-

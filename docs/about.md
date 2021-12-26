@@ -22,4 +22,3 @@ Both of these ideas come together to form the ethos of Stone Soup Kitchen:
 
 > By sharing our talents with each other, we can make higher quality software
 > than we could on our own.
-
