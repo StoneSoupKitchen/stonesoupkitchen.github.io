@@ -29,7 +29,16 @@ module.exports = {
       {
           type: 'category',
           label: 'Software Supply Chain Security',
-          items: ['software-supply-chain-security/index'],
+          items: [
+            'software-supply-chain-security/index',
+            {
+                type: "category",
+                label: "Labs",
+                items: [
+                    'software-supply-chain-security/labs/lab-01',
+                ],
+            },
+          ],
       },
   ],
 };
