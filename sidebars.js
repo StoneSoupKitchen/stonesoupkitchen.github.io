@@ -26,5 +26,10 @@ module.exports = {
           label: 'Continuous Integration',
           items: ['continuous-integration/index'],
       },
+      {
+          type: 'category',
+          label: 'Software Supply Chain Security',
+          items: ['software-supply-chain-security/index'],
+      },
   ],
 };
