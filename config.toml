@@ -1,0 +1,31 @@
+base_url = "https://stonesoup.kitchen"
+title = "Stone Soup Kitchen"
+description = "Stone Soup Kitchen"
+default_language = "en"
+theme = "hermit_zola"
+output_dir = "public"
+compile_sass = true
+highlight_code = true
+build_search_index = true
+
+[extra]
+home_subtitle = "Better software, together."
+footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+hermit_menu = [
+  { link = "/posts", name = "Posts" },
+  { link = "/about", name = "About" },
+]
+
+hermit_social = [
+  { name = "github", link = "https://github.com/StoneSoupKitchen" }
+]
+
+[extra.highlightjs]
+enable = true
+clipboard = true
+theme = "vs2015"
+
+[extra.author]
+name = "Joshua Ford"
+email = "joshua.ford@proton.me"
